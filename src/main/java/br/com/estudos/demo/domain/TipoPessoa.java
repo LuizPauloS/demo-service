@@ -7,9 +7,10 @@ import lombok.Getter;
 @AllArgsConstructor
 public enum TipoPessoa {
 
-    Cônjuge(0),
-    Dependente(1),
-    Pretendente(2);
+    CONJUGE(0, "Cônjuge"),
+    DEPENDENTE(1, "Dependente"),
+    PRETENDENTE(2, "Pretendente");
 
     private Integer id;
+    private String valor;
 }

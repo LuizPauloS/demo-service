@@ -24,4 +24,4 @@ spring:
         format_sql: true
 
 mockyio:
-  url: http://www.mocky.io/v2/5e91ca0c33000004aae9d064
+  url: http://www.mocky.io/v2/5e92002233000004aae9d19b
